@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>onfocus2</title>
+</head>
+<body>
+	<input type="text" placeholder="informe um texto" id="valor" onblur="minhaFuncao()">
+<div id="resultado"></div>
+
+<script type="text/javascript">
+	document.getElementById('valor').focus();
+	function minhaFuncao(){     
+
+	var valor=document.getElementById('valor').value;
+		if (valor) {
+			document.getElementById('resultado').innerHTML = valor;
+		}else {
+			document.getElementById('resultado').innerHTML = "campo vazio!";
+		}
+
+}
+</script>
+
+
+</body>
+</html>
