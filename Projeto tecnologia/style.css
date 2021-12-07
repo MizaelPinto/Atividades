@@ -1,0 +1,35 @@
+body{
+	background-color: #ABBAFA;
+}
+
+
+
+center{
+	font-size: 60px;
+	font-family: Verdana,;
+
+}
+
+h1 {
+	font-family: Arial;
+	font-size: 25px
+}
+p{
+	font-size: 20px;
+	font-family: Arial,Helvetica;
+}
+.imagem2{
+
+    transition: all .5s;
+    border: 10px solid transparent;
+}
+.imagem2:hover{
+    border: 10px solid #136497;
+    border-radius: 50%;
+}
+.imagem3{
+	border:7px solid #999;
+}
+img{
+
+}
